@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_styling_mixed_styles_headings",
+  "info": {
+    "displayName": "mixedStylesHeading"
+  },
+  "options": {},
+  "attributes": {
+    "boldText": {
+      "type": "string"
+    },
+    "italicText": {
+      "type": "string"
+    },
+    "normalText": {
+      "type": "string"
+    }
+  }
+}

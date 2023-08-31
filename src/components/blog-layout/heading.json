@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blog_layout_headings",
+  "info": {
+    "displayName": "Заглавие",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  }
+}

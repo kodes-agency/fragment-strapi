@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_nav_menu_nav_menus",
+  "info": {
+    "displayName": "navMenu"
+  },
+  "options": {},
+  "attributes": {
+    "menuItem": {
+      "type": "string"
+    }
+  }
+}

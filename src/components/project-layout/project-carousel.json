@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_layout_project_carousels",
+  "info": {
+    "displayName": "Слайдер със снимки",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

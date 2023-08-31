@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blog_layout_paragraphs",
+  "info": {
+    "displayName": "Параграф",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "text"
+    }
+  }
+}

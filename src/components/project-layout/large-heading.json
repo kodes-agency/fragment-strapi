@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_project_layout_large_headings",
+  "info": {
+    "displayName": "Заглавие",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  }
+}

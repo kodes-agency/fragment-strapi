@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_layout_inline_galleries",
+  "info": {
+    "displayName": "Снимки в редица",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blog_layout_images",
+  "info": {
+    "displayName": "Снимка",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

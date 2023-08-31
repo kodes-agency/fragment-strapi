@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_layout_quotes",
+  "info": {
+    "displayName": "Цитат",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}

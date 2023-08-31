@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_layout_large_videos",
+  "info": {
+    "displayName": "Видео",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

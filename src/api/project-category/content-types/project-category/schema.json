@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_categories",
+  "info": {
+    "singularName": "project-category",
+    "pluralName": "project-categories",
+    "displayName": "Категории проекти",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project",
+      "mappedBy": "category"
+    },
+    "landingPages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::landing-page.landing-page",
+      "mappedBy": "category"
+    }
+  }
+}

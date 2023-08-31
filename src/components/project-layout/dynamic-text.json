@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_layout_dynamic_texts",
+  "info": {
+    "displayName": "Заглавие с динамичен текст",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dynamicTitle": {
+      "type": "string"
+    },
+    "dynamicText": {
+      "type": "text"
+    }
+  }
+}

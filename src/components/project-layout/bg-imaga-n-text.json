@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_project_layout_bg_imaga_n_texts",
+  "info": {
+    "displayName": "Снимка (фон) с текст",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

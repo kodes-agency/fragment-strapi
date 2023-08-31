@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_channels_contact_channels",
+  "info": {
+    "displayName": "ContactChannel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "channelName": {
+      "type": "string"
+    },
+    "channelLink": {
+      "type": "string"
+    },
+    "channelInfo": {
+      "type": "string"
+    }
+  }
+}

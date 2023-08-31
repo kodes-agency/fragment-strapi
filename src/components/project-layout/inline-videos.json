@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_layout_inline_videos",
+  "info": {
+    "displayName": "Видеа в редица",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Videos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
