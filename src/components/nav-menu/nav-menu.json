@@ -1,11 +1,15 @@
 {
   "collectionName": "components_nav_menu_nav_menus",
   "info": {
-    "displayName": "navMenu"
+    "displayName": "navMenu",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "menuItem": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }

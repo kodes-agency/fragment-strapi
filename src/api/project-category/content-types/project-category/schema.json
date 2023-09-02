@@ -16,17 +16,17 @@
       "pluginOptions": {},
       "type": "string"
     },
-    "projects": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project.project",
-      "mappedBy": "category"
-    },
     "landingPages": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::landing-page.landing-page",
       "mappedBy": "category"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "mappedBy": "categories"
     }
   }
 }
