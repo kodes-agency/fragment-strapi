@@ -70,14 +70,6 @@
       "target": "api::project-category.project-category",
       "inversedBy": "projects"
     },
-    "date": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "date"
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
@@ -110,6 +102,22 @@
         }
       },
       "type": "string"
+    },
+    "dateStart": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date"
+    },
+    "dateFinish": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date"
     }
   }
 }

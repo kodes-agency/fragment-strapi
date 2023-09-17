@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "gdprs",
+  "info": {
+    "singularName": "gdpr",
+    "pluralName": "gdprs",
+    "displayName": "Страница Политика за личните данни",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
